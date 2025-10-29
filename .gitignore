@@ -48,7 +48,7 @@ exported-*.md
 exported-*.html
 exported-*.pdf
 
-# All markdown files
+# All markdown files (except root README.md - use 'git add -f README.md' to track)
 *.md
 *.MD
 
