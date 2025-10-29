@@ -1,0 +1,36 @@
+{
+  "name": "@visualizer/vscode-ext",
+  "version": "0.0.0",
+  "description": "VS Code extension for Smart Markdown Visualizer (placeholder)",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no tests specified\" && exit 0"
+  },
+  "keywords": [
+    "markdown",
+    "vscode",
+    "extension",
+    "vscode-extension"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Formatters",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {}
+}

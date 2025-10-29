@@ -1,0 +1,23 @@
+{
+  "name": "markdown-visualizer",
+  "version": "1.0.0",
+  "description": "A smart Markdown visualizer for web, CLI, and IDEs.",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run build:core && npm -w @visualizer/web run dev",
+    "build:core": "npm -w @visualizer/core run build",
+    "build:cli": "npm -w @visualizer/cli run build",
+    "build:all": "npm run build:core && npm run build:cli && npm -w @visualizer/web run build",
+    "core": "npm -w @visualizer/core",
+    "web": "npm -w @visualizer/web",
+    "cli": "npm -w @visualizer/cli",
+    "lsp": "npm -w @visualizer/lsp",
+    "vscode-ext": "npm -w @visualizer/vscode-ext"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

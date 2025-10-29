@@ -1,0 +1,28 @@
+{
+  "name": "@visualizer/cli",
+  "version": "0.0.0",
+  "description": "Command-line tool for converting Markdown to HTML (placeholder)",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "md-visualizer": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no tests specified\" && exit 0"
+  },
+  "keywords": [
+    "markdown",
+    "cli",
+    "converter",
+    "visualizer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {}
+}
