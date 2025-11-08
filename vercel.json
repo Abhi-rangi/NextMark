@@ -1,8 +1,7 @@
 {
-  "buildCommand": "npm run build:all",
+  "buildCommand": "npm run build:core && npm -w @visualizer/web run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "framework": "nextjs",
   "outputDirectory": "packages/web/.next"
 }
 
