@@ -3,6 +3,7 @@ import { process } from "@visualizer/core";
 import dynamic from "next/dynamic";
 import { markdown as mdLang } from "@codemirror/lang-markdown";
 import { EditorView } from "@codemirror/view";
+import type { Extension } from "@codemirror/state";
 import DOMPurify from "isomorphic-dompurify";
 import mermaid from "mermaid";
 
@@ -233,7 +234,7 @@ ${renderedContent}
     };
   }, [syncScroll, html]); // Re-attach when html changes or syncScroll toggles
 
-  const extensions = [mdLang()];
+  const extensions: Extension[] = [mdLang()];
   if (wordWrap) {
     extensions.push(EditorView.lineWrapping);
   }
