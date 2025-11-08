@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "npm run build -w @visualizer/core",
+    "prebuild": "cd ../.. && npm run build:core",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

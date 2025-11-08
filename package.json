@@ -16,6 +16,7 @@
     "build:core": "npm -w @visualizer/core run build",
     "build:cli": "npm -w @visualizer/cli run build",
     "build:all": "npm run build:core && npm run build:cli && npm -w @visualizer/web run build",
+    "vercel-build": "npm run build:core && npm -w @visualizer/web run build",
     "core": "npm -w @visualizer/core",
     "web": "npm -w @visualizer/web",
     "cli": "npm -w @visualizer/cli",
