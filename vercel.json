@@ -1,7 +1,9 @@
 {
-  "buildCommand": "npm run build:core && npm -w @visualizer/web run build",
-  "devCommand": "npm run dev",
+  "version": 2,
+  "buildCommand": "npm run build:core && cd packages/web && npm run build",
   "installCommand": "npm install",
-  "outputDirectory": "packages/web/.next"
+  "framework": "nextjs",
+  "outputDirectory": "packages/web/.next",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./"
 }
 
