@@ -27,6 +27,6 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@visualizer/core": "workspace:*"
+    "@visualizer/core": "1.0.0"
   }
 }

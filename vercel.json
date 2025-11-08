@@ -1,9 +1,6 @@
 {
-  "version": 2,
   "buildCommand": "npm run build:core && cd packages/web && npm run build",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "outputDirectory": "packages/web/.next",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./"
+  "outputDirectory": "packages/web/.next"
 }
 
