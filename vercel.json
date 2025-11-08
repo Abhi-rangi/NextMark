@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm run build:core && cd packages/web && npm run build",
-  "installCommand": "npm install",
   "outputDirectory": "packages/web/.next"
 }
 
